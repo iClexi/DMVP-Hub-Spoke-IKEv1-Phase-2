@@ -1,0 +1,23 @@
+enable
+conf t
+hostname ISP
+no ip domain-lookup
+ip cef
+
+interface GigabitEthernet0/0
+ description TO_R1_HUB_G0/0
+ ip address 20.25.8.45 255.255.255.252
+ no shutdown
+
+interface GigabitEthernet0/1
+ description TO_R2_SPOKE1_G0/0
+ ip address 20.25.8.49 255.255.255.252
+ no shutdown
+
+interface GigabitEthernet0/2
+ description TO_R3_SPOKE2_G0/0
+ ip address 20.25.8.53 255.255.255.252
+ no shutdown
+
+end
+wr
