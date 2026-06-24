@@ -1,6 +1,0 @@
-PC-SPOKE1 - VPCS
-DMVPN Fase 2 IKEv1 EIGRP
-
-clear ip
-ip 192.168.84.10 255.255.255.0 192.168.84.1
-save
