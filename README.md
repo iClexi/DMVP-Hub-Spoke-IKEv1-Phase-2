@@ -34,8 +34,8 @@ La documentación técnica profesional se encuentra en la carpeta [`docs/`](docs
 
 | Archivo | Descripción |
 |---|---|
-| [`docs/Documentacion_Tecnica_Profesional_DMVPN_Fase2_IKEv1.pdf`](docs/Documentacion_Tecnica_Profesional_DMVPN_Fase2_IKEv1.pdf) | Documento técnico profesional en PDF |
-| [`docs/Documentacion_Tecnica_Profesional_DMVPN_Fase2_IKEv1.docx`](docs/Documentacion_Tecnica_Profesional_DMVPN_Fase2_IKEv1.docx) | Documento editable en Word |
+| [`docs/Documentacion_Tecnica_Profesional_DMVPN_Fase2_IKEv1.pdf`](docs/Documentacion_Tecnica_Profesional.pdf) | Documento técnico profesional en PDF |
+
 
 ---
 
