@@ -12,7 +12,7 @@
 **Enrutamiento dinámico:** EIGRP 45  
 **Repositorio:** https://github.com/iClexi/DMVP-Hub-Spoke-IKEv1-Phase-2  
 **Video demostrativo:** https://youtu.be/W1ePrYkyxNs  
-**Documentación técnica profesional:** `docs/Documentacion Tecnica Profesional.pdf`
+**Documentación técnica profesional:** `docs/Documentacion_Tecnica_Profesional_DMVPN_Fase2_IKEv1.pdf`
 
 ---
 
