@@ -32,7 +32,7 @@
 - [VLANs utilizadas](#vlans-utilizadas)
 - [Parámetros de la VPN](#parámetros-de-la-vpn)
 - [Explicación de la configuración](#explicación-de-la-configuración)
-- [Scripts de configuración](#scripts-de-configuración)
+- [Configs de configuración](#configs-de-configuración)
 - [Evidencias de funcionamiento](#evidencias-de-funcionamiento)
 - [Comandos de verificación](#comandos-de-verificación)
 - [Estructura del repositorio](#estructura-del-repositorio)
@@ -284,22 +284,22 @@ La interfaz LAN se configuró como pasiva porque ahí solo hay PCs y switches, n
 
 ---
 
-## Scripts de configuración
+## Configs de configuración
 
-Los scripts completos se encuentran en la carpeta [`scripts/`](scripts/).
+Los archivos de configuración completos se encuentran en la carpeta [`configs/`](configs/).
 
 | Dispositivo | Archivo | Qué configura |
 |---|---|---|
-| R1-HUB | [`scripts/R1-HUB.txt`](scripts/R1-HUB.txt) | Router Hub, IKEv1, IPsec, NHRP dinámico, GRE multipunto y EIGRP |
-| R2-SPOKE1 | [`scripts/R2-SPOKE1.txt`](scripts/R2-SPOKE1.txt) | Spoke 1, IKEv1, IPsec, NHRP hacia el Hub, GRE multipunto y EIGRP |
-| R3-SPOKE2 | [`scripts/R3-SPOKE2.txt`](scripts/R3-SPOKE2.txt) | Spoke 2, IKEv1, IPsec, NHRP hacia el Hub, GRE multipunto y EIGRP |
-| ISP | [`scripts/ISP.txt`](scripts/ISP.txt) | Enlaces WAN entre R1, R2 y R3 |
-| SW-HUB | [`scripts/SW-HUB.txt`](scripts/SW-HUB.txt) | VLAN 45 y puertos access hacia R1 y PC-HUB |
-| SW-SPOKE1 | [`scripts/SW-SPOKE1.txt`](scripts/SW-SPOKE1.txt) | VLAN 84 y puertos access hacia R2 y PC-SPOKE1 |
-| SW-SPOKE2 | [`scripts/SW-SPOKE2.txt`](scripts/SW-SPOKE2.txt) | VLAN 58 y puertos access hacia R3 y PC-SPOKE2 |
-| PC-HUB | [`scripts/PC-HUB.txt`](scripts/PC-HUB.txt) | IP estática y gateway de PC-HUB |
-| PC-SPOKE1 | [`scripts/PC-SPOKE1.txt`](scripts/PC-SPOKE1.txt) | IP estática y gateway de PC-SPOKE1 |
-| PC-SPOKE2 | [`scripts/PC-SPOKE2.txt`](scripts/PC-SPOKE2.txt) | IP estática y gateway de PC-SPOKE2 |
+| R1-HUB | [`configs/R1-HUB.txt`](configs/R1-HUB.txt) | Router Hub, IKEv1, IPsec, NHRP dinámico, GRE multipunto y EIGRP |
+| R2-SPOKE1 | [`configs/R2-SPOKE1.txt`](configs/R2-SPOKE1.txt) | Spoke 1, IKEv1, IPsec, NHRP hacia el Hub, GRE multipunto y EIGRP |
+| R3-SPOKE2 | [`configs/R3-SPOKE2.txt`](configs/R3-SPOKE2.txt) | Spoke 2, IKEv1, IPsec, NHRP hacia el Hub, GRE multipunto y EIGRP |
+| ISP | [`configs/ISP.txt`](configs/ISP.txt) | Enlaces WAN entre R1, R2 y R3 |
+| SW-HUB | [`configs/SW-HUB.txt`](configs/SW-HUB.txt) | VLAN 45 y puertos access hacia R1 y PC-HUB |
+| SW-SPOKE1 | [`configs/SW-SPOKE1.txt`](configs/SW-SPOKE1.txt) | VLAN 84 y puertos access hacia R2 y PC-SPOKE1 |
+| SW-SPOKE2 | [`configs/SW-SPOKE2.txt`](configs/SW-SPOKE2.txt) | VLAN 58 y puertos access hacia R3 y PC-SPOKE2 |
+| PC-HUB | [`configs/PC-HUB.txt`](configs/PC-HUB.txt) | IP estática y gateway de PC-HUB |
+| PC-SPOKE1 | [`configs/PC-SPOKE1.txt`](configs/PC-SPOKE1.txt) | IP estática y gateway de PC-SPOKE1 |
+| PC-SPOKE2 | [`configs/PC-SPOKE2.txt`](configs/PC-SPOKE2.txt) | IP estática y gateway de PC-SPOKE2 |
 
 ### Diferencia entre el script del Hub y los Spokes
 
@@ -537,7 +537,7 @@ DMVP-Hub-Spoke-IKEv1-Phase-2/
 │   ├── 07_r2_show_crypto_ipsec_sa_parte2.png
 │   └── 08_r1_show_running_config_tunnel0.png
 │
-└── scripts/
+└── configs/
     ├── ISP.txt
     ├── PC-HUB.txt
     ├── PC-SPOKE1.txt
