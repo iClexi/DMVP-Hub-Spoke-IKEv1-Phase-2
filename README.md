@@ -513,7 +513,6 @@ PC-SPOKE2> ping 192.168.84.10
 DMVP-Hub-Spoke-IKEv1-Phase-2/
 │
 ├── README.md
-├── Links_Video_Repositorio.txt
 │
 ├── docs/
 │   └── Documentacion Tecnica Profesional.pdf
